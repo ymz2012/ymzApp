@@ -25,7 +25,6 @@ export default class HttpUtils {
                 headers:{
                     'Accept': 'application/json',
                     'Content-Type': 'application/json',
-                    'x-auth-token':	'ef60dea2-c939-41fc-b49a-e36c13364b21'
                 },
                 body: JSON.stringify(data)
             })
